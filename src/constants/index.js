@@ -1,8 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
-  web,
+  nu,
   javascript,
   typescript,
   html,
@@ -19,10 +18,15 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  qtern,
   jobit,
   tripguide,
   threejs,
+  aws,
+  sklearn,
+  pandas,
+  numpy,
+  matplotlib,
 } from "../assets";
 
 export const navLinks = [
@@ -42,32 +46,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "CS + Journalism Student",
+    icon: nu,
   },
   {
-    title: "React Native Developer",
+    title: "Software Engingeer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Technical Writer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,23 +73,23 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Python",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Django",
     icon: threejs,
   },
   {
@@ -105,161 +97,138 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "github",
     icon: figma,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "sklearn",
+    icon: sklearn,
+  },
+  {
+    name: "pandas",
+    icon: pandas,
+  },
+  {
+    name: "numpy",
+    icon: numpy,
+  },
+  {
+    name: "matplotlib",
+    icon: matplotlib,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Research Assistant",
+    company_name: "Eastside Research Associates",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "March 2021 - June 2022",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "CoFounder + Team Resident",
+    company_name: "hostU",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Mar 2022 - Mar 2023",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Software Engineer Intern",
+    company_name: "Flow",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Jan 2023 - May 2023",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "AI/ML Intern",
+    company_name: "AtScale",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    date: "May 2023 - Sep 2023",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Qtern",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A React/Django/PostgreSQL web application that enables journalists to harness the power of AI/ML to complete better interviews and more efficiently produce stories.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ML",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: qtern,
+    source_code_link: "https://github.com/mikeycrystal/QTern",
   },
   {
-    name: "Job IT",
+    name: "Inspirational Quote Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "React/GraphQL/AWS Lambda application that generates inspirational quotes and gives the option to download the quote card you created.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "graphql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "aws lambda",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://prod.d1p78wan5sodzg.amplifyapp.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Cardio Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A JS/Leaflet personal application that logs and tracks my runs and bike rides.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Leaflet",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mikeycrystal/Exercise-Tracker",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

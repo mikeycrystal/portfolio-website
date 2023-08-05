@@ -39,19 +39,22 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a current student at Northwestern University in Evanston, IL. I am
+        double majoring in Computer Science and Journalism, and I am interested
+        in working in tech. I have completed internships in software engineering
+        and product management, as well as participated in on-campus activities
+        regarding tech and AI. I have also written for multiple on-campus
+        publications and have experience in technical writing and building API
+        documentation. I am looking for opportunities in software engineering,
+        technical product management, API development, machine learning, and
+        technical writing.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
